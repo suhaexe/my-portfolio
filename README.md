@@ -1,16 +1,30 @@
-# React + Vite
+# OFFSCRIPT — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A brutalist, terminal-inspired developer portfolio built with React and Vite.
 
-Currently, two official plugins are available:
+[Live Demo](https://your-portfolio-link.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 About This Project
 
-## React Compiler
+This is my personal developer portfolio. I built it to avoid the generic, template-heavy look of most junior developer sites. The goal was to create something that feels like an archival system terminal—clean, fast, and highly interactive.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack & Features
 
-## Expanding the ESLint configuration
+**Built With:**
+*   **Frontend:** React (JSX), Vite
+*   **Styling:** Custom CSS (No frameworks)
+*   **Deployment:** Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Key Features:**
+*   **Custom Cursor:** A smooth, lerped reticle that reacts to interactive elements.
+*   **Live System Clock:** A real-time ticking clock in the navigation.
+*   **Intersection Observer Navigation:** The nav bar automatically highlights the active section as you scroll.
+*   **Fully Responsive:** Collapses gracefully on mobile devices.
+
+## 🛠️ Setup Instructions
+
+To run this portfolio locally:
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/suhaexe/portfolio.git
